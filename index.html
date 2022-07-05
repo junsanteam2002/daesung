@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name='title' content="대성철강주식회사">
+    <meta id="ogtype" name="ogtype" property="og:type" content="shoppingmall">
+    <meta id="ogtitle" name="ogtitle" property="og:title" content="대성철강"/>
+    <meta id="ogurl" name="ogurl" property="og:url" content="http://www.daesungfence.co.kr"/>
+    <meta id="ogimage" name="ogimage" property="og:image" content="images/ic_scs.PNG"/>
+    <meta id="ogdescription" name="ogdescription" property="og:description" content="Fence 휀스, Door 문, Solar LED light 태양광LED조명, 시설물&기타" />
+    
+    <!--<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/login.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	-->
+    <title>대성철강주식회사</title>
+    <meta name="Description" content="Fence 휀스, Door 문, Solar LED light 태양광LED조명, 시설물&기타">
+<style>
+
+        body {
+            background-color : white;
+        }
+
+
+        .main {
+
+            background-color: #44398A;
+            width: 100%;
+            height: 50px;
+
+            color : white;
+            font-size: 16px;
+
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+            font-weight: bold;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;          
+
+        }
+
+
+        .top {
+
+            width: 100%;
+            height: 50px;
+
+            background-color: #44398A;
+            border-radius: 0px;
+
+            font-size: 18px;
+            font-weight: bold;
+            color:white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;          
+
+            text-decoration: none;
+
+        }   
+
+        .sub {
+            width: 100%;
+            color : white;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-left: 30px;
+
+        }   
+
+        .wrap {
+            width: 300px;
+            margin: 0px auto 0px 0px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;            
+        }   
+
+        .wrap > a { 
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 0px;
+            
+            font-size: 14px;
+            font-weight: bold;
+            color:#44398A;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;          
+            
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+        }         
+
+
+        .BoldText {
+         color: white;
+         font-weight: bold;
+        }
+
+        #nav {
+
+
+            width:100%;
+
+            background-color: white;
+
+            margin:0; 
+            padding:0; 
+            list-style:none;
+            display:inline; 
+           
+        }
+
+        #nav li {
+
+            width: 350px;
+            height: 45px;
+
+            float:left;
+            position:relative;
+            padding:0;
+            display:inline;
+
+            box-shadow: 0px 1px 1px 0px black;
+        }
+
+        #nav li a{
+            width: 350px;
+            height: 45px;            
+            
+            font-family:"굴림";
+            font-weight: bold;
+            font-size: 14px;
+            margin:0;
+            color:#44398A;
+            text-decoration:none;
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;          
+            
+            text-decoration: none;            
+
+        }
+
+        #nav li:hover > a {
+            width: 350px;
+            height: 45px;
+
+            background-color: white;
+            border-radius: 0px;
+            
+            font-size: 14px;
+            font-weight: bold;
+            color:#44398A;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;          
+            
+            text-decoration: none;            
+        }
+
+        #nav ul {
+            width: 350px;
+            height: 45px;
+
+            list-style:none;
+            margin:0;
+            padding:0;
+            position: absolute;
+
+            background-color: white;
+            text-align:center;
+
+            opacity:0;
+
+            
+        }
+
+        #nav ul li {
+            float:none;
+            margin:0;
+            padding:0;
+            font-size: 16px;
+
+        }
+
+        #nav ul a {
+            width: 350px;
+            height: 45px;
+
+            background-color: white;
+            border-radius: 0px;
+            
+            font-size: 14px;
+            font-weight: bold;
+            color:#44398A;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;          
+            
+            text-decoration: none;
+
+          }
+
+        #nav ul li:hover a{
+            background-color: #f2f2f2;
+            font-weight: bold;
+            align-items: flex-start;    
+
+        }
+
+        #nav li:hover ul {
+            opacity:1;
+        }
+
+        #nav li:hover ul li {
+            height:45px;
+            overflow:visible;
+            padding:0;
+        }
+
+
+        #nav, #toggle {
+            display:none;
+        } 
+
+        #toggle:checked + #nav{
+            display: inline;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="main"> 
+        <table width="100%" cellpadding="0" cellspacing="0">
+            <colgroup>
+                <col width="10%" />
+                <col width="90%" />
+            </colgroup>
+            <td>
+
+                <h1 class="top" >
+                    <a href="javascript:;">
+                    <img  src="images/icon_menu.png"  alt="전체메뉴" /></a></h1>                    
+            </td>
+            <td>
+                <h2 class="top"><a  target="_self" href="index.html"><img src="images/ic_corp_name.png"></a></h2>
+            </td>
+        </table>
+    </div>    
+
+
+        <label for="toggle">&#8801;</label>
+        <input type="checkbox" id="toggle"/>
+
+    <ul id="nav" >
+        <li><a href="#">Fence 휀스</a>
+            <ul>
+                <li><a href="sub_fence.html">Design fence 디자인휀스</a></li>
+                <li><a href="sub_fence.html">Wood fence 목재혼합휀스</a></li>
+                <li><a href="sub_fence.html">AL casting fence AL주물휀스</a></li>
+                <li><a href="sub_fence.html">Wood Polymer Composite fence 합성목재휀스</a></li>
+                <li><a href="sub_fence.html">Stainless steel fence 스탠휀스</a></li>
+                <li><a href="sub_fence.html">Mesh fence 매쉬휀스</a></li>
+            </ul>
+        </li>    
+        <li><a href="#">Door 문</a>
+            <ul>
+                <li><a href="sub_door.html">Design door 디자인문</a></li>
+                <li><a href="sub_door.html">Wood door 목재혼합문</a></li>
+                <li><a href="sub_door.html">Mesh door 매쉬문</a></li>
+            </ul>
+        </li>    
+        <li><a href="#">Solar LED light 태양광LED조명</a>
+            <ul>
+                <li><a href="sub_solar.html">Solar LED light 태양광LED조명</a></li>                
+            </ul>
+        </li>    
+        <li><a href="#">시설물&기타</a>
+            <ul>
+                <li><a href="sub_etc.html">가드레일/EGI휀스</a></li>
+                <li><a href="sub_etc.html">Bench 벤치</a></li>
+                <li><a href="sub_etc.html">운동장휀스(비구방지휀스)</a></li>
+                <li><a href="sub_etc.html">Grass Protection Fence 잔디보호휀스</a></li>
+                <li><a href="sub_etc.html">Ston Falling Prevention Fence 낙석방지책</a></li>
+                <li><a href="sub_etc.html">General guard fence 일방경계휀스</a></li>
+                <li><a href="sub_etc.html">Javara gate 자바라문</a></li>
+                <li><a href="sub_etc.html">Wire mesh 용접철망</a></li>
+                <li><a href="sub_etc.html">사각개비온</a></li>
+                <li><a href="sub_etc.html">육각개비온</a></li>
+                <li><a href="sub_etc.html">매트리스개비온</a></li>
+                <li><a href="sub_etc.html">돌망태</a></li>
+                <li><a href="sub_etc.html">낙석방지책</a></li>
+                <li><a href="sub_etc.html">낙석보호망</a></li>
+                <li><a href="sub_etc.html">가시철조망</a></li>
+                <li><a href="sub_etc.html">윤형철조망</a></li>
+                <li><a href="sub_etc.html">PVC철조망</a></li>
+            </ul>
+        </li>    
+        <li><a href="#">회사소개</a>
+            <ul>
+                <li><a href="sub_corp.html">회사소개</a></li>
+            </ul>
+        </li>    
+    </ul>
+
+
+
+    <!--div id="menu" class="wrap">
+        <a target="_self" href="sub_fence.html">Fence 휀스</a>  
+        <a target="_self" href="sub_door.html">Door 문</a>
+        <a target="_self" href="sub_solar.html">Solar LED light 태양광LED조명</a>
+        <a target="_self" href="sub_etc.html">시설물&기타</a>
+    </div -->       
+  
+
+<script>
+function menu_open(){
+
+    alert("메뉴열기");
+    }			
+    
+</script>    
+
+
+</body>
+
+
+</html>
