@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name='title' content="대성철강주식회사">
+    <meta name='title' content="대성철강 주식회사">
     <meta id="ogtype" name="ogtype" property="og:type" content="shoppingmall">
     <meta id="ogtitle" name="ogtitle" property="og:title" content="대성철강"/>
     <meta id="ogurl" name="ogurl" property="og:url" content="http://www.daesungfence.co.kr"/>
@@ -20,7 +20,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 	-->
-    <title>대성철강주식회사</title>
+    <title>대성철강 주식회사</title>
     <meta name="Description" content="Fence 휀스, Door 문, Solar LED light 태양광LED조명, 시설물&기타">
 <style>
 
@@ -263,6 +263,178 @@
             padding:0;
         }
 
+        #search-result-box {
+    margin-top: 15px;
+}
+
+.search-itemDto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    color:#44398A;    
+}
+
+.search-itemDto-left img {
+    width: 410px;
+    height: 254px;
+}
+
+.search-itemDto-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-itemDto-center div {
+    width: 200px;
+    height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color:#44398A;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.search-itemDto-center div.price {
+    height: 27px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.54px;
+    text-align: left;
+    color:#44398A;
+}
+
+.search-itemDto-center span.unit {
+    width: 17px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #000000;
+}
+
+.search-itemDto-right {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle
+}
+
+.search-itemDto-right img {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+input#query {
+    padding: 15px;
+    width: 526px;
+    border-radius: 2px;
+    background-color: #e9ecef;
+    border: none;
+
+    background-image: url('images/icon-search.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 20px;
+}
+
+input#query::placeholder {
+    padding: 15px;
+}
+
+button {
+    color: white;
+    border-radius: 4px;
+    border-radius: none;
+}
+
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-container.active {
+    display: flex;
+}
+
+.popup {
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 370px;
+    height: 190px;
+    border-radius: 11px;
+    background-color: #ffffff;
+}
+
+.popup h1 {
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -1.1px;
+    color: #000000;
+}
+
+.popup input {
+    width: 330px;
+    height: 39px;
+    border-radius: 2px;
+    border: solid 1.1px #dee2e6;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.popup button.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #adb5bd;
+    background-color: #fff;
+    font-size: 19px;
+    border: none;
+}
+
+.popup button.cta {
+    width: 369.1px;
+    height: 43.9px;
+    border-radius: 2px;
+    background-color: #15aabf;
+    border: none;
+}
+
+#search-area, #see-area {
+    width: 530px;
+    margin: auto;
+}
 
 
     </style>
@@ -297,72 +469,75 @@
     </ul>
 
     <div class="sub"> 
-        <table width="30%" cellpadding="0" cellspacing="0">
-            <TR>
-                <td>
-                    <a class="sub_text"></a>
-                </td>
-            </TR>
-            <TR>
-                <td>
-                    <a class="sub_text">사파이어-01</a> <a class="sub_text">W2000ｘH1200</a> <a class="sub_text">백색/함마톤</p></a>
-                </td>
-            </TR>
-            <TR>
-                <td>
-                    <a class="sub"><img src="image/PIC1053.png"></a>
-                </td>
-            </TR>
-
-        </table>
-    </div>   
-
-    <div class="sub"> 
-        <table width="30%" cellpadding="0" cellspacing="0">
-            <TR>
-                <td>
-                    <a class="sub_text"></a>
-                </td>
-            </TR>
-            <TR>
-                <td>
-                    <a class="sub_text">사파이어-02</a> <a class="sub_text">W2000ｘH1200</a> <a class="sub_text">백색/함마톤</p></a>
-                </td>
-            </TR>
-            <TR>
-                <td>
-                    <a class="sub"><img src="image/PIC1064.png"></a>
-                </td>
-            </TR>
-
-        </table>
-    </div>   
+        <div id="search-result-box">
+          <div class="search-itemDto">
+                <div class="search-itemDto-left">
+                 <img src="image/PIC1053.png" alt="">
+             </div>
+             <div class="search-itemDto-center">
+                 <div>&nbsp;사파이어-01</div>
+                 <div>&nbsp;W2000ｘH1200</div>
+                 <div>&nbsp;백색/함마톤</div>
+                 <div class="price">
+                     &nbsp;2,289,780
+                     <span class="unit">원</span>
+                 </div>
+             </div>
+             <div class="search-itemDto-right">
+                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
+             </div>
+         </div>
+        </div>
+    </div>
 
     <div class="sub"> 
-        <table width="30%" cellpadding="0" cellspacing="0">
-            <TR>
-                <td>
-                    <a class="sub_text"></a>
-                </td>
-            </TR>
-            <TR>
-                <td>
-                    <a class="sub_text">사파이어-03</a> <a class="sub_text">W2000ｘH1200</a> <a class="sub_text">백색/함마톤</p></a>
-                </td>
-            </TR>
-            <TR>
-                <td>
-                    <a class="sub"><img src="image/PIC1075.png"></a>
-                </td>
-            </TR>
+        <div id="search-result-box">
+          <div class="search-itemDto">
+                <div class="search-itemDto-left">
+                 <img src="image/PIC1064.png" alt="">
+             </div>
+             <div class="search-itemDto-center">
+                 <div>&nbsp;사파이어-02</div>
+                 <div>&nbsp;W2000ｘH1200</div>
+                 <div>&nbsp;백색/함마톤</div>
+                 <div class="price">
+                     &nbsp;2,289,780
+                     <span class="unit">원</span>
+                 </div>
+             </div>
+             <div class="search-itemDto-right">
+                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
+             </div>
+         </div>
+        </div>
+    </div>
 
-        </table>
-    </div>   
+    <div class="sub"> 
+        <div id="search-result-box">
+          <div class="search-itemDto">
+                <div class="search-itemDto-left">
+                 <img src="image/PIC1075.png" alt="">
+             </div>
+             <div class="search-itemDto-center">
+                 <div>&nbsp;사파이어-03</div>
+                 <div>&nbsp;W2000ｘH1200</div>
+                 <div>&nbsp;백색/함마톤</div>
+                 <div class="price">
+                     &nbsp;2,289,780
+                     <span class="unit">원</span>
+                 </div>
+             </div>
+             <div class="search-itemDto-right">
+                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
+             </div>
+         </div>
+        </div>
+    </div>
 
 <script>
-function menu_open(){
+function addProduct(){
 
-    alert("메뉴열기");
+    alert("견적서작성");
     }			
     
 </script>    
