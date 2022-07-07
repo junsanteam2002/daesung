@@ -394,6 +394,83 @@ input#query::placeholder {
   padding: 15px;
 }
 
+.tb2017 {width:100%; height:390px; align-content:center; position:relative; ; left:0px; overflow:hidden; text-align:center; z-index:9;}
+.choice-div-body-cell {float:left; height:260px; width:202px; text-align:center; line-height:200%;}
+.choice-div-body-cell span {cursor:pointer; }
+#choice_div {width:606px; height:auto; z-index:99999; background:#fff; border:0px solid #2a2a2a; display:none; padding:0px;}
+.choice-div-title {height:35px; width:606px; display: table-cell; vertical-align: middle; background: url(/img/shop/new/method_titlebar.jpg) no-repeat;}
+.choice-div-title-close {position:absolute; top:7px; right:7px; cursor:pointer;}
+
+.contents-body {width:100%;}
+.contents-body-title {height:52px; width:100%; cursor:pointer;}
+.contents-body-cell {float:left; height:52px; width:315px; text-align:center; border-bottom:1px solid #c8c8c8; line-height:300%; font-family: 'Noto Sans KR', sans-serif; font-size:16px;}
+.contents-body-cell img {margin-top:15px;}
+.contents-body-explain {height:auto; width:100%; margin-bottom:60px; padding-top:80px; line-height:200%;}
+.contents-body-explain-tap {text-align:center;padding-bottom:30px; display:none;}
+.contents-body-explain-tap img {cursor:pointer;}
+.cbc-select {border-left:1px solid #c8c8c8; border-top:1px solid #c8c8c8; border-right:1px solid #c8c8c8; border-bottom:0px solid #c8c8c8;}
+.cbe-none { display:none;}
+.GuideLink {cursor:pointer;}
+.tb2017-btn {position:absolute;top:420px;z-index:999;}
+.Sample-main-gate {padding-top:20px;}
+.Sample-main-gate .bx-wrapper .bx-controls-direction a {position:absolute; top:50%; width:26px; height:47px; margin-top:-23px; text-indent:-9999px; z-index:2000;}
+.Sample-main-gate .bx-wrapper .bx-prev {left:-57px; background:url('/img/shop/new/sp_ico_arr.png') no-repeat -44px -82px; }
+.Sample-main-gate .bx-wrapper .bx-next {right: -47px; background:url('/img/shop/new/sp_ico_arr.png') no-repeat -80px -82px; }
+
+.bx-wrapper {position:relative; height:100%; margin:0; padding:0;}
+.bx-wrapper .bx-viewport {height:100%; background-color:#fff;}
+.bx-wrapper img {display:block; max-width:100%; height:100%; border:1px solid #c8c8c8;}
+.bx-wrapper img:hover {box-shadow:0px 4px 8px 0px rgba(0,0,0,0.16), 0px 2px 10px 0px rgba(0,0,0,0.12) !important} 
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {position:absolute; bottom:18px; width:100%; z-index:100;}
+
+.popup{position: absolute;
+left: 0px;
+z-index: 999;    top: 226px;}
+
+    .first_box {width:310px;height:auto;float:left;border: solid 1px #eee;}
+    .first_box1 {width:310px;height:auto;float:left;border: solid 1px #eee;margin-LEFT:9PX;}
+    .dthumb{width:310px;height:210px;background-size:  310px auto; *//* background-position: center; */er; */background-repeat: no-repeat;/* background-attachment: fixed; */background-position: center; cursor:pointer;}
+    .ddescription{
+        padding: 20px;
+        position: relative;
+    }
+
+    .dbtn{
+        border-top: solid 1px #eee;
+        font-size: 0px;
+    }
+    .dbtn div{
+        display:  inline-block;
+        height: 50px;
+        line-height:  50px;
+        text-align:  center;
+        width: 100%;
+        cursor:pointer;
+    }
+    
+    .hoverb{color: #222;font-size: 13px;}
+    .dpline1{font-size:16px;color:#222;font-family:"Noto Sans KR", sans-serif;}
+    .dpline2{font-size:16px;color:#222;margin: 12px 0 20px 0;font-family:"Noto Sans KR", sans-serif;}
+    .dpline3{font-size: 13px;color: #777;line-height:  20px;font-family:"Noto Sans KR", sans-serif;}
+
+    .first_1_box {width:228px;height:auto;float:left;border: solid 0px #eee;cursor:pointer;}
+    .first_1_box1 {width:228px;height:auto;float:left;border: solid 0px #eee;margin-LEFT:14PX;cursor:pointer;}
+    .dthumb_1{width:228px;height:228px;background-size:  228px auto; background-position: center; background-repeat: no-repeat; background-position: center;}
+    .first_1_box:hover, .first_1_box1:hover {box-shadow:0px 4px 8px 0px rgba(0,0,0,0.16), 0px 2px 10px 0px rgba(0,0,0,0.12) !important} 
+
+    .copyright {
+        width: 100%;
+        margin: 30px auto 0px auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+
+
 button {
   color: white;
   border-radius: 4px;
