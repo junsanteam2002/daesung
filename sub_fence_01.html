@@ -26,7 +26,23 @@
 
         body {
             background-color : white;
+     
         }
+
+	    #middleBody{float:left; padding-bottom:100px;}
+        #bodyR #tbox {width:410px;height:273px;overflow:hidden;margin-bottom:10px;}
+        #bodyR ul li{float:left; width:410px; height:273px;padding-right:58px;}
+        #bodyR ul li {padding:0px 26px 0px 0px;}
+        #bodyR ul li.end{padding-right:0px;}
+        #bodyR ul li .listimg{border:0; margin-bottom:17px; vertical-align:bottom;cursor:pointer;}
+        #bodyR ul li div{line-height:16px;text-align:center;}
+        #bodyR ul li .price{color:#0068B7;font-weight:bold;}
+        #bodyR .listimg {width:410px;height:273px;-webkit-transition:all 0.5s ease;-ms-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease; transition: all 0.5s ease;}  
+        #bodyR .listimg:hover {-webkit-transform: scale(1.2,1.2);-ms-transform: scale(1.2,1.2);-moz-transform: scale(1.2,1.2);-o-transform: scale(1.2,1.2); transform: scale(1.2,1.2);}  
+        .jcarousel-skin-banner3 {width:952px;}
+        .jcarousel-container jcarousel-container-horizontal {width:952px;}
+        #bodyR .icon {float:right;width:0px;height:0px;}
+        #bodyR .icon img{position:relative; top:-9px;left:-37px;z-index:999;}
 
 </style>
 
@@ -64,37 +80,27 @@
         </li>    
     </ul>
 
-
-<div class="sub"> 
-    <div id="search-result-box">
-        <div class="search-itemDto">
-                <div class="search-itemDto-left">
-                 <img src="image/PIC1053.png" alt="">
-                </div>
-            <div class="search-itemDto-center">
-                 <div>사파이어-01</div>
-                 <div>W2000ｘH1200</div>
-                 <div>백색/함마톤</div>
-                 <div class="price">
-                     1,500,000
-                     <span class="unit">원</span>
-                 </div>
-                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
-             </div>
-        </div>
+    <div class="top">
     </div>
 
+
+    <div id="bodyR"> 
+    <div style=" border-bottom:1px solid #ddd;">
+        <img src="image/title_bestitem.gif" style="margin:7px 0 5px 0;">
+    </div>            
+ 
+    <div class="sub">
     <div id="search-result-box">
         <div class="search-itemDto">
             <div class="search-itemDto-left">
-                <img src="image/PIC1064.png" alt="">
+                <div id='tbox'><img src="image/PIC1053.png" class="listimg"></div>
             </div>
             <div class="search-itemDto-center">
-                <div>사파이어-02</div>
+                <div class="unitname">사파이어-01</div>
                 <div>W2000ｘH1200</div>
                 <div>백색/함마톤</div>
                 <div class="price">
-                    1,500,000
+                    500,000
                     <span class="unit">원</span>
                 </div>
                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
@@ -105,14 +111,14 @@
     <div id="search-result-box">
         <div class="search-itemDto">
             <div class="search-itemDto-left">
-                <img src="image/PIC1075.png" alt="">
+                <div id='tbox'><img src="image/PIC1064.png"  class="listimg"></div>
             </div>
             <div class="search-itemDto-center">
-                <div>사파이어-03</div>
+                <div class="unitname">사파이어-02</div>
                 <div>W2000ｘH1200</div>
                 <div>백색/함마톤</div>
                 <div class="price">
-                    1,500,000
+                    500,000
                     <span class="unit">원</span>
                 </div>
                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
@@ -123,14 +129,14 @@
     <div id="search-result-box">
         <div class="search-itemDto">
             <div class="search-itemDto-left">
-                <img src="image/PIC1098.png" alt="">
+                <div id='tbox'><img src="image/PIC1075.png"  class="listimg"></div>
             </div>
             <div class="search-itemDto-center">
-                <div>루비</div>
+                <div class="unitname">사파이어-03</div>
                 <div>W2000ｘH1200</div>
                 <div>백색/함마톤</div>
                 <div class="price">
-                    1,500,000
+                    500,000
                     <span class="unit">원</span>
                 </div>
                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
@@ -141,14 +147,14 @@
     <div id="search-result-box">
         <div class="search-itemDto">
             <div class="search-itemDto-left">
-                <img src="image/PIC12BC.png" alt="">
+                <div id='tbox'><img src="image/PIC1098.png"  class="listimg"></div>
             </div>
             <div class="search-itemDto-center">
-                <div>딱정벌레</div>
+                <div class="unitname">루비</div>
                 <div>W2000ｘH1200</div>
                 <div>백색/함마톤</div>
                 <div class="price">
-                    1,500,000
+                    500,000
                     <span class="unit">원</span>
                 </div>
                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
@@ -159,14 +165,14 @@
     <div id="search-result-box">
         <div class="search-itemDto">
             <div class="search-itemDto-left">
-                <img src="image/PIC177F.png" alt="">
+                <div id='tbox'><img src="image/PIC12BC.png"  class="listimg"></div>
             </div>
             <div class="search-itemDto-center">
-                <div>복주머니</div>
+                <div class="unitname">딱정벌레</div>
                 <div>W2000ｘH1200</div>
                 <div>백색/함마톤</div>
                 <div class="price">
-                    1,500,000
+                    500,000
                     <span class="unit">원</span>
                 </div>
                 <img src="images/icon-save.png" alt="" onclick='addProduct()'>
@@ -174,7 +180,27 @@
         </div>
     </div>
 
+    <div id="search-result-box">
+        <div class="search-itemDto">
+            <div class="search-itemDto-left">
+                <div id='tbox'><img src="image/PIC177F.png"  class="listimg"></div>
+            </div>
+            <div class="search-itemDto-center">
+                <div class="unitname">복주머니</div>
+                <div>W2000ｘH1200</div>
+                <div>백색/함마톤</div>
+                <div class="price">
+                    500,000
+                    <span class="unit">원</span>
+                </div>
+                <img src="images/icon-save.png" alt="" onclick='addProduct()'>
+            </div>
+        </div>
+    </div>
+    </div>
  </div>
+ 
+               
 
 <script>
 function admin(){
@@ -183,9 +209,9 @@ alert("관리자 로그인");
 }			
 
 function addProduct(){
-
-    alert("견적서작성");
-    }			
+    location.href='estimate.html';
+}
+	
     
 </script>    
 
