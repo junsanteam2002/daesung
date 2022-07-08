@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name='title' content="대성철강주식회사">
+    <meta id="ogtype" name="ogtype" property="og:type" content="shoppingmall">
+    <meta id="ogtitle" name="ogtitle" property="og:title" content="대성철강"/>
+    <meta id="ogurl" name="ogurl" property="og:url" content="http://www.daesungfence.co.kr"/>
+    <meta id="ogimage" name="ogimage" property="og:image" content="images/meta_daesung.png"/>
+    <meta id="ogdescription" name="ogdescription" property="og:description" content="Fence 휀스, Door 문, Solar LED light 태양광LED조명, 시설물&기타" />
+    
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+	<!--link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/login.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	-->
+    <title>대성철강주식회사</title>
+    <meta name="Description" content="Fence 휀스, Door 문, Solar LED light 태양광LED조명, 시설물&기타">
+    <style>
+        #align {   
+        width:100%;
+        text-align:center;   
+        }     
+          
+        #content {   
+        margin:20px 0px 30px 5px;
+        width:644px;
+        text-align:left;   
+        }
+        #content .info {width:300px;border:3px solid #636361;align:right;margin-left:40px;}
+        #content .info td{border:3px solid #636361;text-align:center;}
+        #content .estbody1{width:300px;}
+        #content .estbody2{width:300px;}
+        #content .estbody1 td {height:25px;}
+        #content .estbody2 td {height:10px;}
+        #content .title {padding-left:39px;width:621px;margin-bottom:47px;}
+        #content .sprice {font-weight:bold;font-size:15px;color:#1f68d9}
+        #content .Bprice {color:#1f68d9}
+        input{border:1px solid #ddd;text-align:right;}
+        .ct1 {width:70px;text-align:left;}
+        .ct2 {text-align:right;}
+        .footer td{height:23px;}
+        .print {cursor:pointer;}
+        </style>
+    </head>
+     <body>
+        <div id="align">  
+            <div id="content">
+                <div class="title">
+                    <table>
+                        <tr><td colspan="2"><div style="float:right;" ><img src="images/print.png" alt="print" class="print" onclick='print()'/></div></td></tr>
+                        <tr>
+                            <td>
+                                <img src="images/estimate01.png"><br/>
+                                <br/>
+                                <input type="text" style="width:150px;height:27px;margin-bottom:5px;"> &nbsp;귀하 <br/>
+                                <span class="sprice">금액&nbsp;<span id="totalprice">1,000,000</span>&nbsp;원</span> (VAT포함)
+                            </td>
+                            <td>
+                                <img src="images/estimate02.png" style="margin-left:95px;">
+                                <img src="images/maybeone_stamp.jpg" style="left: 625px; top: 78px; width: 37px; position: absolute;">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="width:318px;float:left;">
+                    <img src="image/PIC1053.png" style="width:300px;height:199px;margin-left:18px;">
+                </div>
+                <div style="float:right" >
+                    <table>
+                        <tr>
+                            <td>
+                                <table class="estbody1" style="border-bottom:1px solid #ddd;">
+                                    <tr>
+                                        <td class="ct1">카테고리</td>
+                                        <td>디자인휀스</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ct1">상품명</td>
+                                        <td><b>사파이어-01</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ct1">규격</td>
+                                        <td>W2000 X H1200</td>
+                                    </tr>
+                                    <tr>  
+                                        <td class="ct1">수량</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ct1">색상</td>
+                                        <td>백색/함마톤</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>  
+                        <tr>
+                            <td>
+                                <form name="pricefrm">
+                                <table class="estbody2">
+                                    <tr><td colspan="3">&nbsp;</td></tr>
+                                    <tr>
+                                        <td class="ct1">제작비용</td>
+                                        <td class="ct2" colspan="2"><span class="Bprice">500,000&nbsp;원</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ct1">설치비</td>
+                                        <td class="ct2"></td>
+                                        <td class="ct2">0&nbsp;원</td>  
+                                    </tr>
+                                    <tr>
+                                        <td class="ct1" style="padding-top:5px;">추가비용</td>
+                                        <td class="ct2">
+                                            <input type="text" size="10">
+                                        </td>
+                                        <td class="ct2">
+                                            <input type="hidden" class="hideprice"  value="">
+                                            <input type="text" size="7" class="addprice" style="ime-mode:disabled;" onkeyup="NumObj(this);" >&nbsp;원
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom:1px solid #ddd;"><td colspan="3"></td></tr>
+                                    <tr><td colspan="3">&nbsp;</td></tr>
+                                    <tr>
+                                        <td class="ct1">합계</td>
+                                        <td class="ct2" colspan="2" style="font-weight:bold;color:#1f68d9"><span id="totalprice2">500,000</span>&nbsp;원</td>
+                                    </tr>
+                                </table>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="width:629px;float:left;margin:10px 15px;" class="footer">	
+                    <table style="border-top:3px solid #ddd;border-bottom:3px solid #ddd;width:629px;">
+                        <tr>
+                            <td colspan="2" height="15px;"></td>
+                        </tr>
+                        <tr>
+                            <td width="70px;">납품기일</td>
+                            <td>주문결제 후 15일 소요</td>
+                        </tr>
+                        <tr>
+                            <td>결제조건</td>
+                            <td>현금 또는 신용카드, 세금계산서발행</td>  
+                        </tr>
+                        <tr>
+                            <td colspan="2" height="15px;"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="Bprice" style="font-size:11px;">
+                                ※ 본 견적서의 유효기간은 견적일로부터 15일입니다.<br/>
+                                
+                            </td>
+                        </tr>  
+                        <tr>
+                            <td colspan="2" height="10px;"></td>
+                        </tr>
+                    </table>
+                    <table style="width:629px;">
+                        <tr>
+                            <td height="30px;"></td>
+                        </td>
+                        <tr>
+                            <td style="text-align:center;line-height:30px;">
+                                <span style="font-size:15px;color#636361;font-weight:bold;">상기와 같이 견적합니다</span><br/>
+                                <span style="font-size:14px;">2022년     7월   8일</span><br/>
+                                <p><img src="images/ic_corp_name2.png" style="width:200px;"><br/></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>		
+            </div>    
+        </div> 
+        <script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="/js/common.js"></script>
+        <script type="text/javascript">
+            $(".print").click(function(){
+                $(".print").css("display","none")
+                $("input").css("border","1px solid #fff")
+                window.print();
+                $(".print").show();
+                $("input").css("border","1px solid #ddd")
+            })
+            
+            function NumObj(obj){ 
+                var inputp = $(".addprice").val(); 
+                inputp = inputp.replace(",","")
+                if(inputp == ""){
+                    price = parseInt(3200)
+                }else{
+                    var price = parseInt(3200)+parseInt(inputp)
+                    $(".addprice").val(commaSplit(inputp)); 
+                    
+                }	
+                $("#totalprice").text(commaSplit(price))
+                $("#totalprice2").text(commaSplit(price))
+            }
+            function commaSplit(srcNumber) {
+            var txtNumber = '' + srcNumber;
+            if (isNaN(txtNumber)) {     
+                alert("숫자만 입력 하세요");
+                
+            }  
+            else { 
+                    var rxSplit = new RegExp('([0-9])([0-9][0-9][0-9][,.])');
+                    var arrNumber = txtNumber.split('.');
+                    arrNumber[0] += '.';
+                    do {
+                    arrNumber[0] = arrNumber[0].replace(rxSplit, '$1,$2');
+            } while (rxSplit.test(arrNumber[0]));
+            if (arrNumber.length > 1) {
+            return arrNumber.join('');
+            }
+            else {
+            return arrNumber[0].split('.')[0];
+                  }
+               }
+            } 
+        </script>   
+     </body>
+    </html>
