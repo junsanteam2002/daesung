@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-    <link rel="shortcut icon" href="https://junsanteam2002.github.io/daesung/images/favicon.ico">	
+
+    <link rel="icon" type="image/x-icon" href="https://junsanteam2002.github.io/daesung/images/favicon.ico">
 
     <meta name='title' content="대성철강주식회사">
     <meta id="ogtype" name="ogtype" property="og:type" content="shoppingmall">
@@ -30,17 +30,7 @@
             background-color : white;
         }
 
-        .popup{position: absolute;
-            left: 0px;
-            z-index: 999;    top: 226px;}
 
-        .first_box {width:310px;height:auto;float:left;border: solid 1px #eee;}
-        .first_box1 {width:310px;height:auto;float:left;border: solid 1px #eee;margin-LEFT:9PX;}
-        .dthumb{width:310px;height:210px;background-size:  310px auto; *//* background-position: center; */er; */background-repeat: no-repeat;/* background-attachment: fixed; */background-position: center; cursor:pointer;}
-        .ddescription{
-            padding: 20px;
-            position: relative;
-        }
 
     </style>
 
@@ -479,7 +469,7 @@
     <div class="copyright">
         <ul>
           <li class="left">
-            <p><strong>대성철강주식회사</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a onclick='admin()'>[관리자]</a></p>
+            <p><strong>대성철강주식회사</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a onclick="go_move('cms.html')">[관리자]</a></p>
             <p>경남 사천시 사남면 공단2로 5 사남산업단지내 </p>
             <p>TEL:055-854-3897 / FAX:055-854-3898</p>
             <p>&nbsp;</p>
@@ -492,6 +482,7 @@
 function admin(){
 
     alert("관리자 로그인");
+    
     }			
 
     function go_move(ncode) {
