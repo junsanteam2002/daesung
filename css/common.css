@@ -54,6 +54,9 @@ input[id="chkBox"]{
   justify-content: center;
   align-items: center;          
 
+
+  font-family: "Noto Sans KR", serif;
+
 }
 
 
@@ -103,6 +106,7 @@ input[id="chkBox"]{
   width: 100%;
   color : #44398A;
   font-size: 16px;
+  font-family: "Noto Sans KR", serif;
   margin-top: 0px;
   margin-left: 30px;
 
@@ -183,7 +187,7 @@ font-weight: bold;
   width: 350px;
   height: 45px;            
   
-  font-family:"굴림";
+  font-family: "Noto Sans KR", serif;
   font-weight: bold;
   font-size: 14px;
   margin:0;
@@ -425,7 +429,17 @@ input#query::placeholder {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {position:absolute; bottom:18px; width:100%; z-index:100;}
 
+.popup{position: absolute;
+  left: 0px;
+  z-index: 999;    top: 226px;}
 
+.first_box {width:310px;height:auto;float:left;border: solid 1px #eee;}
+.first_box1 {width:310px;height:auto;float:left;border: solid 1px #eee;margin-LEFT:9PX;}
+.dthumb{width:310px;height:210px;background-size:  310px auto; *//* background-position: center; */er; */background-repeat: no-repeat;/* background-attachment: fixed; */background-position: center; cursor:pointer;}
+.ddescription{
+  padding: 20px;
+  position: relative;
+}
 
     .dbtn{
         border-top: solid 1px #eee;
@@ -469,71 +483,31 @@ button {
   border-radius: none;
 }
 
+#align {   
+  width:100%;
+  text-align:center;   
+  }     
+    
+  #content {   
+      margin:20px 0px 30px 5px;
+      width:644px;
+      text-align:left;   
+  }
+  #content .info {width:300px;border:3px solid #636361;align:right;margin-left:40px;}
+  #content .info td{border:3px solid #636361;text-align:center;}
+  #content .estbody1{width:300px;}
+  #content .estbody2{width:300px;}
+  #content .estbody1 td {height:25px;}
+  #content .estbody2 td {height:10px;}
+  #content .title {padding-left:39px;width:621px;margin-bottom:47px;}
+  #content .sprice {font-weight:bold;font-size:15px;color:#1f68d9}
+  #content .Bprice {color:#1f68d9}
+  input{border:1px solid #ddd;text-align:right;}
+  .ct1 {width:70px;text-align:left;}
+  .ct2 {text-align:right;}
+  .footer td{height:23px;}
+  .print {cursor:pointer;}
 
-.popup-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  align-items: center;
-  justify-content: center;
-}
-
-.popup-container.active {
-  display: flex;
-}
-
-.popup {
-  padding: 20px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  position: relative;
-  width: 370px;
-  height: 190px;
-  border-radius: 11px;
-  background-color: #ffffff;
-}
-
-.popup h1 {
-  margin: 0px;
-  font-size: 22px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1;
-  letter-spacing: -1.1px;
-  color: #000000;
-}
-
-.popup input {
-  width: 330px;
-  height: 39px;
-  border-radius: 2px;
-  border: solid 1.1px #dee2e6;
-  margin-right: 9px;
-  margin-bottom: 10px;
-  padding-left: 10px;
-}
-
-.popup button.close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  color: #adb5bd;
-  background-color: #fff;
-  font-size: 19px;
-  border: none;
-}
-
-.popup button.cta {
-  width: 369.1px;
-  height: 43.9px;
-  border-radius: 2px;
-  background-color: #15aabf;
-  border: none;
-}
 
 
 #search-area, #see-area {
@@ -1399,7 +1373,7 @@ button {
 .fs37{font-size:37px !important;}
 .fs38{font-size:38px !important;}
 .fs39{font-size:39px !important;}
-.fs40{font-size:40px !important;}t;}
+.fs40{font-size:40px !important;}
 .fs37{font-size:37px !important;}
 .fs38{font-size:38px !important;}
 .fs39{font-size:39px !important;}
